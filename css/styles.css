@@ -110,8 +110,14 @@ padding-bottom: 32px;
 
 }
 
+.link:hover{
+fill: #2196F3 ;
+}
+
+
+
 .item .link{
-display: flex;
+display: block;
 align-items: center;
 justify-content: center;
 }
@@ -201,7 +207,7 @@ color: #2196F3;
     }
 
 .contacts .link {
-  display: block;
+  display: flex;
     color: #757575;
     font-style: normal;
 font-weight: 500;
