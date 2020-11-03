@@ -110,6 +110,12 @@ padding-bottom: 32px;
 
 }
 
+.item .link{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
 .menu-portfolio{
   display: flex;
   justify-content: center;
@@ -240,6 +246,12 @@ letter-spacing: 0.03em;
 color: #2196F3;
 }
 
+.contacts .link .contacts-icon:hover,
+.contacts .link .contacts-icon:focus
+ {
+color: #2196F3;
+}
+
 .hero {  
   background-color:#2F303A;
   text-align: center;
@@ -287,6 +299,7 @@ color: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-position: 50% 50%;
 }
 
 .section-title{
@@ -389,6 +402,7 @@ padding-bottom: 10px;
 .hero-title .centred {
   text-align: center;
 }
+
 
 
 .portfolio-title{
@@ -551,6 +565,9 @@ justify-content:center;
   border: 1px solid #2196F3;
 }
 
+.company{
+ }
+
 .company:hover,
 .company:focus {
   fill:#2196F3;
@@ -585,9 +602,11 @@ justify-content:center;
   }
 
 .social-link:hover,
-.social-link:focus {
+.social-link:focus,
+.social-icon:hover,
+.social-icon:focus{
 background-color: #2196F3;
-color: white;
+fill: white;
   }
 
 .social-icon {
@@ -597,13 +616,16 @@ color: white;
   fill: currentColor;
 }
 
+
+
 .contacts-icon{
-  width: 24px;
-  height: 24px;
-  margin: auto;
+      width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    
   fill: currentColor;
-  padding-right: 10px;
-}
+ }
+
 .join {
   font-style: normal;
 font-weight: bold;
