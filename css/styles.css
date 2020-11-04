@@ -322,7 +322,7 @@ justify-content:center;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-position: 50% 50%;
+ 
 }
 
 .section-title{
@@ -586,15 +586,18 @@ justify-content:center;
 .clients-title:hover,
 .clients-title:focus {
   border: 1px solid #2196F3;
-  fill: #2196F3;
-}
-
-.company{
-  fill: #2196F3;
  }
 
-.company:hover
-{
+.company:hover {
+  fill: #2196F3
+}
+
+
+.company{
+  fill: #AFB1B8;
+ }
+
+.company:hover{
   fill: #2196F3;
 }
 
@@ -679,8 +682,13 @@ color: #FFFFFF;
   height: 44px;
   display: inline-flex;
   border-radius: 50%;
-  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
 }
+
+.footer-icons .social-icon {
+  fill: white
+    }
+
 .footer-icons:hover{
   background-color: #2196F3;
 }
