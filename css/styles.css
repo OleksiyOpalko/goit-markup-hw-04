@@ -567,29 +567,34 @@ padding-bottom: 30px;
 }
 
 .clients-title {
+ 
+}
+
+.clients-icon{
   width: 170px;
-height: 90px;
-border: 1px solid #AFB1B8;
-box-sizing: border-box;
-display: flex;
-border-radius: 4px;
-background: #FFFFFF;
-margin-right: 30px;
-align-items: center;
-justify-content:center;
+  height: 90px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  display: flex;
+  border-radius: 4px;
+  background: #FFFFFF;
+  margin-right: 30px;
+  align-items: center;
+  justify-content:center;
 }
 
-.clients-title:last-child {
+/* .clients-title:last-child {
   margin-right: 0px;
-}
+}  */
 
-.clients-title:hover,
-.clients-title:focus {
-  border: 1px solid #2196F3;
- }
+ .clients-icon:hover
+ {
+   border-color:   #2196F3;
+ }  
 
-.company:hover {
-  fill: #2196F3
+ .clients-icon:hover .company {
+  fill: #2196F3;
+
 }
 
 
@@ -597,9 +602,11 @@ justify-content:center;
   fill: #AFB1B8;
  }
 
+ 
+/* 
 .company:hover{
   fill: #2196F3;
-}
+} */
 
 /* .advantage-title::before{
   display: block;
@@ -616,26 +623,39 @@ justify-content:center;
   display: inline-flex;
   justify-content: center;
   }
+  
+  .team-social-link {
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+   border-radius: 50%;
+    background-color: white;
+    color: #AFB1B8;
+  }
+
+  .team-social-link:hover .social-icon{
+ fill: white;
+  }
+  
+  .team-social-link:hover {
+    background-color: #2196F3;
+  }
 
 .social-link{
-  width: 44px;
-  height: 44px;
-  display: inline-flex;
-  border-radius: 50%;
-  color: grey;
+  
 }
 
 .social-item:not(:last-child){
   margin-right: 10px;
   }
 
-.social-link:hover,
+/* .social-link:hover, 
 .social-link:focus,
 .social-icon:hover,
 .social-icon:focus{
 background-color: #2196F3;
 fill: white;
-  }
+  } */
 
 .social-icon {
   width: 20px;
